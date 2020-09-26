@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  font-size: 13px;
+}
+
+header .sticky-part {
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  height: 40px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.google-logo {
+  padding: 4px 28px 0 30px;
+  width: 86px;
+  height: 28px;
+}
+
+.search-bar {
+  position: fixed;
+  top: 10px;
+  left: 142px;
+  width: 690px;
+  height: 36px;
+  border: 1px solid #dfe1e5;
+  border-radius: 16px;
+}
+
+input {
+  margin-left: 10px;
+  width: 78%;
+  border: none;
+  line-height: 32px;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn-sb {
+  width: 35px;
+  height: 35px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  position: fixed;
+  z-index: 20;
+}
+
+.img-cross {
+  top: 12px;
+  left: 690px;
+  opacity: 0.5;
+}
+
+.img-keyboard {
+  top: 12px;
+  left: 725px;
+}
+
+.img-micro {
+  top: 13px;
+  left: 760px;
+}
+
+.img-magnifier {
+  top: 12px;
+  left: 795px;
+}
+
+.search-bar a {
+  display: block;
+  width: 30px; 
+}
+
+.img-services {
+  position: fixed;
+  top: 13px;
+  right: 82px;
+  opacity: 0.5;
+}
+
+.img-profile {
+  position: fixed;
+  top: 13px;
+  right: 32px;
+}
+
+.profile {
+  border-radius: 50%;
+}
