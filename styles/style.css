@@ -11,7 +11,7 @@ header {
 
 header .sticky-part {
   position: fixed;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 5px;
   height: 40px;
   width: 100%;
@@ -33,7 +33,7 @@ header .sticky-part {
 
 .search-bar {
   position: fixed;
-  top: 10px;
+  top: 15px;
   left: 142px;
   width: 690px;
   height: 36px;
@@ -65,23 +65,23 @@ input {
 }
 
 .img-cross {
-  top: 12px;
+  top: 17px;
   left: 690px;
   opacity: 0.5;
 }
 
 .img-keyboard {
-  top: 12px;
+  top: 17px;
   left: 725px;
 }
 
 .img-micro {
-  top: 13px;
+  top: 18px;
   left: 760px;
 }
 
 .img-magnifier {
-  top: 12px;
+  top: 17px;
   left: 795px;
 }
 
@@ -145,11 +145,28 @@ nav {
    height: 20px;
    width: 20px;
    margin-right: 5px;
+   opacity: 0.5;
 }
+
+/* ***Main*** */
 
 .content-wrapper {
   margin-left: 144px;
   width: 690px;
+}
+
+.img-main {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.section-header h2 {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /*Opaque text under search bar*/
@@ -171,3 +188,23 @@ article a {
 article {
   padding-bottom: 30px;
 }
+
+/* ***Video*** */
+video {
+  margin-bottom: 30px;
+  height: 386px;
+}
+
+.video-section-container {
+  display: flex;
+}
+
+.video-result-container {
+  margin-right: 2px;
+  width: 210px;
+}
+
+iframe {
+  width: 100% !important;
+}
+

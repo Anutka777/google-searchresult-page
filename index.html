@@ -140,37 +140,43 @@
       
       <!----------------------------- Video results ---------------------->
       <section class="video">
-        <div class="img-main video-img">
-          <svg focusable="false" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg>
-        </div>
-        <h2>Видео</h2>
-      <!----------------------------- Single result ---------------------->
-        <div class="video-result-container">
-          <div class="video-result-video"></div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-9ZheXYOMeM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="#">Build your website with HTML & CSS</a>
-          <p>Le Wagon</p>
-          <span class="video-result-source">YouTube</span><p> - 10 мая 2016г.</p>
+        <div class="section-header">
+          <div class="img-main">
+            <svg focusable="false" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg>
+          </div>
+          <h2>Видео</h2>
         </div>
 
-        <div class="video-result-container">
-          <div class="video-result-video"></div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YWA-xbsJrVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="#">How to Make a Website in 10 mins - Simple & Easy</a>
-          <p>Website Learners</p>
-          <span class="video-result-source">YouTube</span><p> - 3 января 2018г.</p>
-        </div>
+        <!----------------------------All results ---------------------------->
+        <div class="video-section-container">
+          <!----------------------------- Single result ---------------------->
+          <div class="video-result-container">
+            <div class="video-result-video"></div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/-9ZheXYOMeM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="#">Build your website with HTML & CSS</a>
+            <p>Le Wagon</p>
+            <span class="video-result-source">YouTube</span><p> - 10 мая 2016г.</p>
+          </div>
 
-        <div class="video-result-container">
-          <div class="video-result-video"></div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jHPr-CuvHhs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a href="#">Welcome to the web! (video)</a>
-          <p>Khan Academy Computing</p>
-          <span class="video-result-source">Khan Academy</span><p> - 23 апреля 2019г.</p>
+          <div class="video-result-container">
+            <div class="video-result-video"></div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YWA-xbsJrVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="#">How to Make a Website in 10 mins - Simple & Easy</a>
+            <p>Website Learners</p>
+            <span class="video-result-source">YouTube</span><p> - 3 января 2018г.</p>
+          </div>
+
+          <div class="video-result-container">
+            <div class="video-result-video"></div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/jHPr-CuvHhs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="#">Welcome to the web! (video)</a>
+            <p>Khan Academy Computing</p>
+            <span class="video-result-source">Khan Academy</span><p> - 23 апреля 2019г.</p>
+          </div>
         </div>
 
   <!---------------------------------- Slider icon imitation ---------------->   
-        <div class="img-video img-slider">
+        <div class="img-main">
           <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
         </div>
       </section>
@@ -179,7 +185,7 @@
       <section class="show-all">
         <hr>
         <button class="show-all">Показать всё</button>
-        <div class="img-video img-arrow">
+        <div class="img-main">
           <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
         </div>
       </section>
@@ -203,46 +209,48 @@
 
       <!--------------------------------- Similar queries -------------------->
       <section class="similar-queries">
-        <h2>Похожие запросы</h2>
-
+        <div class="section-header">
+          <h2>Похожие запросы</h2>
+        </div>
+         
         <div class="query-item">
           <h3>How can I create my own webpage?</h3>
-          <div class="img-sq">
+          <div class="img-main">
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
           </div>
         </div>
 
         <div class="query-item">
           <h3>What is the cheapest way to build a website?</h3>
-          <div class="img-sq">
+          <div class="img-main>
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
           </div>
         </div>
 
         <div class="query-item">
           <h3>How much should I pay someone to build a website?</h3>
-          <div class="img-sq">
+          <div class="img-main
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
           </div>
         </div>
 
         <div class="query-item">
           <h3>What is the best tool to build a website?</h3>
-          <div class="img-sq">
+          <div class="img-main">
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
           </div>
         </div>
 
         <div class="query-item">
           <h3>How mush does GoDaddy charge to build a website?</h3>
-          <div class="img-sq">
+          <div class="img-main">
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
           </div>
         </div>
 
         <div class="query-item">
           <h3>Can I be a web designer without coding?</h3>
-          <div class="img-sq">
+          <div class="img-main">
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
           </div>
         </div>
@@ -285,10 +293,12 @@
 
       <!-------------------------------- Pictures results -------------------->
       <section class="pictures">
-        <div class="img-main pictures-img">
-          <svg clip-rule="evenodd" fill-rule="evenodd" focusable="false" viewBox="0 0 24 24"><path fill="#4285f4" d="M19 22h-7v-2h7c.55 0 1-.46 1-1V5a1 1 0 0 0-1-.99L12 4V2h7c1.66 0 3 1.36 3 3v14c0 1.65-1.35 3-3 3"></path><path fill="#ea4335" d="M12 22H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h7v2H5c-.55 0-.99.45-.99 1L4 19c0 .55.45 1 1 1h7v2"></path><path fill="#34a853" d="M14 13l-2.25 2.75L10 14l-4 4h12"></path><path fill="#fbbc04" d="M10 8c0 1.1-.9 2-2 2s-2-.9-2-2c0-1.09.9-2 2-2s2 .9 2 2"></path></svg>
+        <div class="section-header">
+          <div class="img-main">
+            <svg clip-rule="evenodd" fill-rule="evenodd" focusable="false" viewBox="0 0 24 24"><path fill="#4285f4" d="M19 22h-7v-2h7c.55 0 1-.46 1-1V5a1 1 0 0 0-1-.99L12 4V2h7c1.66 0 3 1.36 3 3v14c0 1.65-1.35 3-3 3"></path><path fill="#ea4335" d="M12 22H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h7v2H5c-.55 0-.99.45-.99 1L4 19c0 .55.45 1 1 1h7v2"></path><path fill="#34a853" d="M14 13l-2.25 2.75L10 14l-4 4h12"></path><path fill="#fbbc04" d="M10 8c0 1.1-.9 2-2 2s-2-.9-2-2c0-1.09.9-2 2-2s2 .9 2 2"></path></svg>
+          </div>
+          <h2>Картинки</h2>
         </div>
-        <h2>Картинки</h2>
 
         <div class="tags">
           <ul>
@@ -300,7 +310,7 @@
             <li><a href="#">free website</a></li>
           </ul>
 
-          <div class="img-sq">
+          <div class="img-main">
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
           </div>
         </div>
@@ -314,7 +324,7 @@
         </div>
 
         <!---------------------------------- Slider icon imitation ---------------->   
-        <div class="img-video img-slider">
+        <div class="img-main">
           <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
         </div>
 
@@ -325,7 +335,7 @@
       <section class="show-all">
         <hr>
         <button class="show-all">Показать всё</button>
-        <div class="img-video img-arrow">
+        <div class="img-main">
           <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
         </div>
       </section>
