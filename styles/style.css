@@ -16,8 +16,12 @@ header .sticky-part {
   height: 40px;
   width: 100%;
   background-color: #ffffff;
-  /*How the hell can I hide it?*/
-  box-shadow: 0 1px 6px 0 #20212447;
+
+  /*How the hell can I hide it when on top of the screen?*/
+  /*Looks ugly. Desided to remove, until finding a solution*/
+  /* box-shadow: 0 1px 6px 0 #20212447; */
+
+  /*Just in case*/
   z-index: 19;
 }
 
@@ -143,3 +147,27 @@ nav {
    margin-right: 5px;
 }
 
+.content-wrapper {
+  margin-left: 144px;
+  width: 690px;
+}
+
+/*Opaque text under search bar*/
+.result-search-stats {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 5px 0 10px 0;
+}
+
+article a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*Translate page link*/
+.translate {
+  font-size: 14px;
+}
+
+article {
+  padding-bottom: 30px;
+}
