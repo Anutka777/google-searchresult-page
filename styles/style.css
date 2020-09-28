@@ -207,7 +207,7 @@ article {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .video-result-container a {
@@ -221,8 +221,12 @@ article {
 }
 
 .video-result-text p {
-  opacity: 0.5;
+  color: rgba(0, 0, 0, 0.5);
   padding-top: 70px;
+}
+
+.video-result-source {
+  color: rgba(0, 0, 0, 1);
 }
 
 /* ***Show all button*** */
