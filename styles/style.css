@@ -7,6 +7,8 @@ header {
   font-size: 13px;
 }
 
+/* ***sticky header*** */
+
 header .sticky-part {
   position: fixed;
   padding-top: 10px;
@@ -14,7 +16,9 @@ header .sticky-part {
   height: 40px;
   width: 100%;
   background-color: #ffffff;
+  /*How the hell can I hide it?*/
   box-shadow: 0 1px 6px 0 #20212447;
+  z-index: 19;
 }
 
 .google-logo {
@@ -31,6 +35,10 @@ header .sticky-part {
   height: 36px;
   border: 1px solid #dfe1e5;
   border-radius: 16px;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
 }
 
 input {
@@ -85,6 +93,10 @@ input {
   opacity: 0.5;
 }
 
+.img-services:hover {
+  box-shadow: 0 1px 10px 0 #20212447;
+}
+
 .img-profile {
   position: fixed;
   top: 13px;
@@ -94,3 +106,40 @@ input {
 .profile {
   border-radius: 50%;
 }
+
+.profile:hover {
+  box-shadow: 0 1px 10px 0 #20212447;
+}
+
+/* ***navigation bar*** */
+
+nav {
+  padding-top: 55px;
+  height: 55px;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.nav-container {
+  margin-top: 25px;
+  margin-left: 144px;
+  width: 690px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
+
+.nav-item a {
+  display: flex;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.img-nav {
+   height: 20px;
+   width: 20px;
+   margin-right: 5px;
+}
+
