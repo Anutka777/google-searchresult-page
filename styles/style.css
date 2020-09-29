@@ -417,3 +417,28 @@ table a:hover {
   background-repeat: no-repeat;
   background-position: -96px 0;
 }
+
+/* ***Footer*** */
+.footer-bar{
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-bar ul{
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
