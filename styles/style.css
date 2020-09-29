@@ -177,6 +177,10 @@ article a {
   font-size: 20px;
 }
 
+article a:hover {
+  text-decoration: underline;
+}
+
 /*Translate page link*/
 .translate {
   font-size: 14px;
@@ -291,6 +295,10 @@ hr {
 }
 
 /* ***Pictures section*** */
+.pictures {
+  position: relative;
+}
+
 .tags {
   position: relative;
   margin-bottom: 10px;
@@ -325,4 +333,23 @@ hr {
   border-radius: 50%;
 }
 
-/* ***Pictures*** */
+/* ***Pictures slider*** */
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.slider img {
+  margin-right: 3px;
+  height: 134px;
+  width: auto;
+}
+
+.img-pic-position {
+  z-index: 20;
+  position: absolute;
+  top: 140px;
+  left: 670px;
+  background-color: #fff;
+}
