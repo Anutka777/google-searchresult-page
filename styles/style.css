@@ -353,3 +353,67 @@ hr {
   left: 670px;
   background-color: #fff;
 }
+
+/* ***Page navigation*** */
+table {
+  margin: 30px auto;
+}
+
+table td {
+  text-align: center;
+  font-size: 16px;
+}
+
+table a {
+  text-decoration: none;
+  color: #4285F4;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+/* class for matching cells-sizing*/
+.G {
+  width: 28px;
+  height: 40px;
+}
+
+/*class for bg-image positioning*/
+.G-img {
+  background-image: url(../imgs/nav_logo299.webp);
+  background-position: -24px 0;
+}
+
+.red-o {
+  width: 20px;
+  height: 40px;
+}
+
+.red-o-img {
+  background-image: url(../imgs/nav_logo299.webp);
+  background-position: -53px 0;
+}
+
+.o {
+  width: 20px;
+  height: 40px;
+}
+
+.o-img {
+  background-image: url(../imgs/nav_logo299.webp);
+  background-position: -74px 0;
+}
+
+.gle {
+  width: 71px;
+  height: 40px;
+  text-align: right;
+}
+
+.gle-img {
+  background-image: url(../imgs/nav_logo299.webp);
+  /*issues without that*/
+  background-repeat: no-repeat;
+  background-position: -96px 0;
+}
